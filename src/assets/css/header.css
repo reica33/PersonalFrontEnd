@@ -1,0 +1,20 @@
+/* <!-- 헤더 --> */
+#main-header {
+    padding: 40px 50px;
+    position: fixed; /* 고정할 부분 */
+    top: 0px; /* 고정할 위치 */
+    z-index: 99; /* 고정하고 스크롤내리면 다른 이미지와 겹칠 때 다른 이미지 위로 오게 */
+    background-color: white;
+    width: 800px;
+}
+
+.master-title { 
+    font-size: 50px; 
+    color: navy;
+    text-align: center;
+}
+
+.master-description {
+    font-size: 15px; font-weight: 500;
+    color: #383838;
+}

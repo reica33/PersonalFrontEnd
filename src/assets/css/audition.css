@@ -1,0 +1,63 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto 0 auto; /* 상 우 하 좌 */
+}
+#slider ul {
+    position: relative;
+}
+#slider ul li {
+    position: relative;
+    width: 480px;
+    height: 600px;
+    float: left;
+}
+
+/* a.prev, a.next {
+    position: absolute;
+    top: 40%;
+    z-index: 50;
+    display: block;  줄바꿈이 일어나는 block취급을 하겠다 
+    padding: 4% 3%;
+    background:  #333333;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.3;
+    cursor: pointer;
+} */
+/* a.next {
+    right: 0;
+} */
+
+.article-body-audition table {
+    color: navy;
+    background: aliceblue;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.article-body-audition table, th, td {
+    border: 3px dashed navy;
+}
+
+.article-body-audition th {
+    font-size: 25px;
+    font-weight: bold; 
+    padding: 5px;
+}
+
+.article-body-audition td {
+    font-size: 20px;
+    padding: 10px;
+}
