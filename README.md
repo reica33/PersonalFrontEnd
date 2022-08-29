@@ -1,4 +1,4 @@
-# Perconal Project_FrontEnd
+# Personal Project_FrontEnd
 
 ## Project setup
 ```
